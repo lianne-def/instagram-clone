@@ -1,0 +1,88 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+
+.contener {
+    width: 595px;
+    height: auto;
+    background-color: white;
+    border: solid 5px black;
+    margin: 0px auto;
+}
+
+
+.Avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;   
+}
+
+
+.logo-gebruiker {
+    position: absolute;
+    top: 10px;
+    left: 1190px;
+}
+
+
+hr {
+    margin-top: 20px;
+}
+
+
+#vangogh {
+    margin: 15px;
+}
+
+
+.vangogh {
+    position: absolute;
+    top: 254px; /*of 250*/
+    right: 1080px;
+}
+
+
+.post-vangogh {
+    width: 595px;
+}
+
+
+#heart {
+    padding-top: 11px; /*10*/
+    padding-left: 15px;
+}
+
+
+#comment,
+#dm,
+#heart {
+    width: 40px;
+}
+
+
+#heart:hover,
+#comment:hover,
+#dm:hover {
+    opacity: 0.2;
+}
+
+
+p {
+    padding-left: 18px;
+    padding-top: 5px;
+    margin-top: 0px;
+}
+
+
+span {
+    font-weight: bolder;
+    font-size: large ;
+}
+
+
+.chat {
+    padding-bottom: 16px;
+}
